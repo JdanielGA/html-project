@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Test layout</title>
+    <link rel="stylesheet" href="style/css/home.css">
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <img src="./styles/pictures/OIG.jpeg" alt="Company logo">
+    <div class="navbar-block">
+        <p>I'm the navbar block</p>
+    </div>
+    <div class="content-block">
+        <div class="content-block__sidebar">
+            <button type="button" class="sidebar-button">
+                button one
+            </button>
+            <button type="button" class="sidebar-button">
+                button two
+            </button>
+            <button type="button" class="sidebar-button">
+                button three
+            </button>
+            <button type="button" class="sidebar-button">
+                button four
+            </button>
         </div>
-        <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__item"><a href="">Home</a></li>
-                <li class="main-nav__item"><a href="">Products</a></li>
-                <li class="main-nav__item"><a href="">About us</a></li>
-                <li class="main-nav__item"><a href="">Contact us</a></li>
-                <li class="main-nav__item"><a href="">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="main__container">
-            <h1>Transform Your Space with Mobiart</h1>
-            <p>At Mobiart, we create furniture with art, combining functionality and aesthetics. We offer furniture solutions for all types of spaces, with a variety of styles and materials. We advise and help you create the ideal environment for you. At Mobiart, furniture is art that transforms your space.</p>
+        <div class="content-block__content">
+            <p>I'm the content in the content block</p>
         </div>
-    </main>
+    </div>
+    <div class="footer-block">
+        <p>I'm the footer block</p>
+    </div>
 </body>
 </html>
