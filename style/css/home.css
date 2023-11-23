@@ -10,11 +10,39 @@ html {
 .navbar-block {
     height: 10vh;
     width: 100vw;
+    min-width: 100rem;
     font-size: 3rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #4B4453;
+}
+
+.navbar-block__logo {
+    width: 20vw;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.navbar-block__menu {
+    width: 80vw;
+    min-width: 450px;
+    display: flex;
+    justify-content:right;
+}
+
+.navbar-block__menu-list {
+    list-style: none;
+}
+
+.navbar-block__menu-list li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.navbar-block__menu-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
 }
 
 .content-block {
@@ -62,9 +90,41 @@ html {
 .footer-block {
     height: 5vh;
     width: 100vw;
+    min-width: 100rem;
+    padding: 0 2rem;
     font-size: 3rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #B0A8B9; 
+    background-color: #B0A8B9;
+}
+
+.footer-block__snetworks {
+    width: 30vw;
+    min-width: 450px;
+    display: flex;
+    justify-content: left;
+    font-size: 2rem;
+}
+
+.footer-block__snetworks-list {
+    list-style: none;
+}
+
+.footer-block__snetworks-list li {
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.footer-block__snetworks-list a {
+    text-decoration: none;
+    color: #845EC2;
+    font-size: 2rem;
+}
+
+.footer-block__snetworks-info {
+    width: 70vw;
+    min-width: 450px;
+    display: flex;
+    justify-content: right;
+    font-size: 2rem;
 }
